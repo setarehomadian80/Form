@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="fontello/fontello.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <div class="box">
+            <div class="after">
+                <div class="after-box">
+                    <h4 class="afterH">Hello</h4>
+                    <p class="afterP">Register to use all feature in our site</p>
+                    <button class="btn">SIGN IN</button>
+                </div>
+
+            </div>
+            <div class="left">
+                <h2>Login With</h2>
+                <div class="span-group">
+                    <span><i class="icon-mail-1"></i></span>
+                    <span><i class="icon-github"></i></span>
+                    <span><i class="icon-facebook"></i></span>
+                    <span><i class="icon-instagram"></i></span>
+                </div>
+                <h3>OR</h3>
+                <p>Login with your Email & Password</p>
+                <form action="register.php" onsubmit="return myform(event)" name="regForm">
+                    <input type="text" name="email" placeholder="Your Email"><br>
+                    <label id="emailabel" for=""></label><br>
+                    <input class="passLeft" type="password" name="pass" placeholder="Your Password">
+                    <div class="show">
+                        <span id="eye"><i class="icon-eye-off"></i></span>
+                        <span id="eyebaz"><i class="icon-eye-1"></i></span>
+                    </div>
+                    <br>
+                    <label id="passLabel" for=""></label><br>
+                    <button>LOGIN</button>
+                </form>
+            </div>
+            <!-- left -->
+            <!-- right -->
+            <div class="right">
+                <h2>Register With</h2>
+                <div class="span-group">
+                    <span><i class="icon-mail-1"></i></span>
+                    <span><i class="icon-github"></i></span>
+                    <span><i class="icon-facebook"></i></span>
+                    <span><i class="icon-instagram"></i></span>
+                </div>
+                <h3>OR</h3>
+                <p>Fill Out The Following info For Registration</p>
+                <form action="register.php" onsubmit="return myformRight(event)" name="regFormRight">
+                    <input type="text" name="Name" placeholder="Your Name"><br><br>
+                    <label for=""></label>
+                    <input type="text" name="emailReg" placeholder="Your Email"><br>
+                    <label id="emailabelRight" for=""></label><br>
+                    <input class="passRight" type="password" name="passReg" placeholder="Your Password">
+                    <div class="showRight">
+                        <span id="eyeRight"><i class="icon-eye-off"></i></span>
+                        <span id="eyebazRight"><i class="icon-eye-1"></i></span>
+                    </div>
+                    <br>
+                    <label id="passLabelRight" for=""></label><br>
+                    <button>Sign UP</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script src="js/main.js">
+  
+</script>
+
+</html>
