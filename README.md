@@ -33,10 +33,9 @@ A simple **Login & Registration form** project with client-side validation, pass
 ---
 ## Screenshots
 
-**Login Form**  
 ![Login Screenshot](image/Sc1.png)
 
-**Registration Form**  
+
 ![Registration Screenshot](image/Sc2.png)
 
 ---
