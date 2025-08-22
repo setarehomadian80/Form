@@ -198,3 +198,11 @@ section {
       }
     }
 }
+#rightForm{
+    >input{
+        margin-left: 20px;
+    }
+    >.sBtn{
+        margin-left: 20px;
+    }
+}
