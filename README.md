@@ -31,22 +31,22 @@ A simple **Login & Registration form** project with client-side validation, pass
 - Toggle counters (`num`, `num2`, `btnclick`) → Control password visibility and after-box animation
 
 ---
+## Screenshots
 
+**Login Form**  
+![Login Screenshot](image/Sc1.png)
+
+**Registration Form**  
+![Registration Screenshot](image/Sc2.png)
+
+---
 ## Demo
 
 [View Live Demo](#)  
 
 ---
 
-## Screenshots
 
-**Login Form**  
-![Login Screenshot](./image/Sc1)
-
-**Registration Form**  
-![Registration Screenshot](./screenshots/register.png)
-
----
 
 ## How to Use
 
