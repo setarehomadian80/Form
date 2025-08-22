@@ -41,7 +41,7 @@ A simple **Login & Registration form** project with client-side validation, pass
 ## Screenshots
 
 **Login Form**  
-![Login Screenshot](image/Sc1)
+![Login Screenshot](./image/Sc1)
 
 **Registration Form**  
 ![Registration Screenshot](./screenshots/register.png)
